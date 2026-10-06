@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/fraunces';
+
+/*
+ * Old-atlas palette: parchment paper, deep sea-green ink, a terracotta pin and
+ * a brass highlight. The map's ocean is the `sea` token, land is `land`.
+ */
+@theme {
+	--font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	--font-serif: 'Fraunces Variable', ui-serif, Georgia, 'Times New Roman', serif;
+
+	--color-paper: #f6f1e6;
+	--color-paper-2: #ece4d2;
+	--color-ink: #1d2b2a;
+	--color-ink-soft: #3d4f4d;
+	--color-muted: #6f7d79;
+	--color-line: #ddd2bb;
+
+	--color-sea: #c9dcd8;
+	--color-land: #f3ecdc;
+	--color-border: #a99e86;
+
+	--color-pin: #c4552d;
+	--color-pin-soft: #f1d5c8;
+	--color-answer: #2f7a5b;
+	--color-answer-soft: #d3e7dc;
+	--color-brass: #b8892f;
+
+	/* score tiers (share-card squares use the same order) */
+	--color-tier-great: #2f7a5b;
+	--color-tier-good: #b8892f;
+	--color-tier-meh: #d0793c;
+	--color-tier-bad: #a8443a;
+}
+
+html {
+	background-color: var(--color-paper);
+}
+
+body {
+	background-color: var(--color-paper);
+	color: var(--color-ink);
+	font-family: var(--font-sans);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.font-serif {
+	font-family: var(--font-serif);
+}
+
+/* Leaflet without tiles: the container itself is the ocean. Doubled class
+ * because leaflet.css loads after this file and sets its own grey. */
+.leaflet-container.leaflet-container {
+	background: var(--color-sea);
+	font-family: var(--font-sans);
+	cursor: crosshair;
+}
+.leaflet-container.leaflet-grab {
+	cursor: crosshair;
+}
+.leaflet-dragging .leaflet-container,
+.leaflet-container.leaflet-dragging {
+	cursor: grabbing;
+}

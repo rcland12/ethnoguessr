@@ -1,0 +1,19 @@
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+*.local.*
+.claude/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Pipeline working data: downloaded photos, landmarks and per-person crops.
+# Only data/public (composites + manifest + credits) is ever served.
+/data/*
+!/data/README.md
+/pipeline/.cache
+__pycache__/
+*.pyc

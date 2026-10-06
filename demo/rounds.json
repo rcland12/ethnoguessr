@@ -1,0 +1,185 @@
+{
+	"version": 1,
+	"generated": "2026-10-06T00:00:00Z",
+	"demo": true,
+	"rounds": [
+		{
+			"id": "NG-m",
+			"label": "Nigeria",
+			"country": "NG",
+			"lat": 9.1,
+			"lng": 7.4,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 42,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "NG-f",
+			"label": "Nigeria",
+			"country": "NG",
+			"lat": 9.1,
+			"lng": 7.4,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 31,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "JP-m",
+			"label": "Japan",
+			"country": "JP",
+			"lat": 35.5,
+			"lng": 137.0,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 58,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "BR-f",
+			"label": "Brazil",
+			"country": "BR",
+			"lat": -19.0,
+			"lng": -46.0,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 47,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "IN-KL-m",
+			"label": "Kerala, India",
+			"country": "IN",
+			"region": "IN-KL",
+			"lat": 10.3,
+			"lng": 76.4,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 36,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "IN-PB-m",
+			"label": "Punjab, India",
+			"country": "IN",
+			"region": "IN-PB",
+			"lat": 30.9,
+			"lng": 75.6,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 33,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "SE-f",
+			"label": "Sweden",
+			"country": "SE",
+			"lat": 59.5,
+			"lng": 16.0,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 52,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "ET-m",
+			"label": "Ethiopia",
+			"country": "ET",
+			"lat": 9.0,
+			"lng": 38.8,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 29,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "PE-m",
+			"label": "Peru",
+			"country": "PE",
+			"lat": -11.0,
+			"lng": -76.0,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 34,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "IR-f",
+			"label": "Iran",
+			"country": "IR",
+			"lat": 34.0,
+			"lng": 51.5,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 38,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "PH-f",
+			"label": "Philippines",
+			"country": "PH",
+			"lat": 13.0,
+			"lng": 122.0,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 41,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "MN-m",
+			"label": "Mongolia",
+			"country": "MN",
+			"lat": 47.9,
+			"lng": 106.9,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 24,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "IE-m",
+			"label": "Ireland",
+			"country": "IE",
+			"lat": 53.3,
+			"lng": -7.5,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 55,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "MX-f",
+			"label": "Mexico",
+			"country": "MX",
+			"lat": 20.5,
+			"lng": -100.0,
+			"radiusKm": 150,
+			"sex": "f",
+			"n": 44,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "EG-m",
+			"label": "Egypt",
+			"country": "EG",
+			"lat": 30.2,
+			"lng": 31.2,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 37,
+			"image": "placeholder.svg"
+		},
+		{
+			"id": "FJ-m",
+			"label": "Fiji",
+			"country": "FJ",
+			"lat": -17.8,
+			"lng": 178.0,
+			"radiusKm": 150,
+			"sex": "m",
+			"n": 21,
+			"image": "placeholder.svg"
+		}
+	]
+}
